@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1450px;
+    height: 930px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+
+.boko {
+    display: grid;
+}
+
+.page {
+    display: flex;
+    border: 1px solid white;
+    margin-right: 70px;
+    background: white;
+    width: 852px;
+    height: 421px;
+}
+
+.form {
+    text-align: center;
+    flex-basis: 50%;
+    display: grid;
+}
+
+.form h2 {
+    background: #f78b26;
+    color: white;
+    padding: 10px 10px;
+    width: 195px;
+    height: 55px;
+    transform: translateY(-40px);
+}
+
+.form button {
+    text-align: center;
+    width: 72px;
+    height: 37px;
+    background: white;
+    transform: translateY(-20px);
+}
+
+.form input {
+    background: #f4f4f4;
+    border: transparent;
+}
+
+.form_ne {
+    margin-bottom: 20px;
+    width: 382px;
+    height: 37px;
+    transform: translateY(-30px);
+}
+
+.form_message {
+    transform: translateY(-30px);
+    width: 382px;
+    height: 135px;
+}
+
+.form_message::placeholder {
+    transform: translateY(-40px);
+    padding-left: 20px;
+    color: #aaa;
+}
+
+.form_ne:focus {
+    border-color: blue;
+    text-align: start;
+}
+
+.form_ne::placeholder {
+    padding-left: 20px;
+    color: #aaa;
+}
+
+.text {
+    margin-top: 48px;
+    flex-basis: 50%;
+}
+
+.text :nth-child(3) {
+    color: #333333;
+    margin-top: 20px;
+}
+
+.text_a:hover {
+    border: 1px solid #f78b26;
+    color: #f78b26;
+    transition: 400ms;
+}
+
+.lorem {
+    color: grey;
+}
+
+.link {
+    display: grid;
+}
+
+.link a {
+    text-decoration: none;
+    padding: 10px 10px;
+    background: white;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.link :nth-child(4) {
+    color: #f78b26;
+}
+
+.link a:hover {
+    color: #f78b26;
+    transition: 400ms;
+}
+
+.boko img {
+    margin-bottom: 70px;
+}
+
+.img img {
+    transform: translateY(-2px);
+}

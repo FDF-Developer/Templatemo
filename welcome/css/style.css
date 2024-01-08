@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1450px;
+    height: 930px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+
+.page {
+    display: flex;
+    margin-right: 70px;
+    background: white;
+    width: 852px;
+    height: 432px;
+}
+
+.text {
+    text-align: start;
+    padding: 50px 35px;
+    width: 442px;
+    height: 433px;
+}
+
+.text h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    border-left: 3px solid black;
+    padding-left: 10px;
+}
+
+.text p {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.text_a {
+    padding: 10px 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+}
+
+.text_a:hover {
+    border: 1px solid #f78b26;
+    color: #f78b26;
+    transition: 400ms;
+}
+
+.short {
+    color: #f78b26;
+}
+
+.link {
+    display: grid;
+}
+
+.link a {
+    text-decoration: none;
+    padding: 10px 10px;
+    background: white;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.link :nth-child(1) {
+    color: #f78b26;
+}
+
+.link a:hover {
+    color: #f78b26;
+    transition: 400ms;
+}
+
+.boko {
+    display: grid;
+}
+
+.boko img {
+    margin-bottom: 70px;
+}
+
